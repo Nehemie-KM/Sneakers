@@ -13,7 +13,7 @@ import './App.css'
 function App() {
   return (
     <Router>
-      <Navbar />
+     
       <Routes>
       <Route path="/" element={<Homepublic />} />
         <Route path="/login" element={<Login />} />
