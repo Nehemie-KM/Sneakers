@@ -4,8 +4,8 @@ const Register = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-[url('/fond_register.jpg')]">
     <div className="w-full max-w-md bg-transparent backdrop-blur-md rounded-lg shadow-lg p-8">
-      <h2 className="text-3xl font-bold text-gray-300 text-center mb-4">Rejoignez BallerStyle</h2>
-      <p className="text-gray-500 text-center mb-6">Créez votre compte pour commencer</p>
+      <h2 className="text-3xl font-bold text-pink-500 text-center mb-4">Rejoignez BallerStyle</h2>
+      <p className="text-pink-600 text-center mb-6">Créez votre compte pour commencer</p>
   
       <form className="space-y-6">
         {/* Name Field */}
@@ -60,14 +60,14 @@ const Register = () => {
         <div className="flex items-center">
           <input type="checkbox" className="h-4 w-4 text-purple-600 focus:ring-purple-500 border-gray-300 rounded" required />
           <label className="ml-2 text-sm text-gray-600">
-            J'accepte les <a href="/terms" className="text-gray-800 hover:underline">termes et conditions</a>.
+            J'accepte les <a href="/terms" className="text-pink-800 hover:underline">termes et conditions</a>.
           </label>
         </div>
   
         {/* Register Button */}
         <button
           type="submit"
-          className="w-full bg-gray-600 text-white py-3 rounded-lg font-medium hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-purple-500 focus:ring-opacity-50 transition-all"
+          className="w-full bg-pink-600 text-white py-3 rounded-lg font-medium hover:bg-pink-700 focus:outline-none focus:ring-4 focus:ring-purple-500 focus:ring-opacity-50 transition-all"
         >
           S'inscrire
         </button>
@@ -76,7 +76,7 @@ const Register = () => {
       {/* Divider and Social Register */}
       <div className="mt-6 flex items-center justify-center space-x-4">
         <span className="w-1/4 border-t border-gray-300"></span>
-        <span className="text-sm text-gray-600">Ou inscrivez-vous avec</span>
+        <span className="text-sm text-pink-300">Ou inscrivez-vous avec</span>
         <span className="w-1/4 border-t border-gray-300"></span>
       </div>
       <div className="flex justify-center mt-4 space-x-4">
@@ -93,7 +93,7 @@ const Register = () => {
   
       {/* Login Link */}
       <p className="mt-6 text-center text-sm text-gray-600">
-        Vous avez déjà un compte ? <a href="/login" className="text-gray-800 font-medium hover:underline">Connectez-vous ici</a>
+        Vous avez déjà un compte ? <a href="/login" className="text-pink-600 font-medium hover:underline">Connectez-vous ici</a>
       </p>
     </div>
   </div>
