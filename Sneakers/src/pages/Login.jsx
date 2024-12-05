@@ -69,7 +69,7 @@ function Login() {
         
         {/* Register Link */}
         <p className="mt-6 text-center text-sm text-gray-600">
-          Pas encore de compte ? <a href="/register.jsx" className="text-gray-800 font-medium hover:underline">Inscrivez-vous ici</a>
+          Pas encore de compte ? <a href="/register" className="text-gray-800 font-medium hover:underline">Inscrivez-vous ici</a>
         </p>
       </div>
     </div>
