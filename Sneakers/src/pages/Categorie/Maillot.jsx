@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../Navbar';
 
-const Admin = () => {
+const Maillot = () => {
   return (
     <div>
       <Navbar/>
@@ -9,4 +9,4 @@ const Admin = () => {
   );
 };
 
-export default Admin;
+export default Maillot;
