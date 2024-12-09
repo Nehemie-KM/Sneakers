@@ -1,12 +1,12 @@
 import React from 'react';
 import Navbar from '../Navbar';
 
-const Admin = () => {
+const Accesoires = () => {
   return (
     <div>
-      <Navbar/>
+  <Navbar/>
     </div>
   );
 };
 
-export default Admin;
+export default Accesoires;

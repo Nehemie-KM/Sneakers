@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
+import Navbar from "./Navbar";
 
 const Panier = () => {
   return (
     <div>
-      <h1>Page de Connexion</h1>
+      <Navbar />
     </div>
   );
 };
