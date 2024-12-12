@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "produits",
+  "info": {
+    "singularName": "produit",
+    "pluralName": "produits",
+    "displayName": "Produits",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Prix": {
+      "type": "decimal"
+    },
+    "categorie": {
+      "type": "enumeration",
+      "enum": [
+        "Maillot",
+        "Chaussures",
+        "Accesoires"
+      ]
+    },
+    "marque": {
+      "type": "enumeration",
+      "enum": [
+        "addidas",
+        "nike",
+        "nba",
+        "spalding",
+        "under armour",
+        "jordan",
+        "wilson",
+        "molten"
+      ]
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
